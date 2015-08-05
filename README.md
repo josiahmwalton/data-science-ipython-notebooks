@@ -9,7 +9,7 @@ Continually updated Data Science IPython Notebooks.
 
 This repo is a collection of IPython Notebooks I reference while working with data.  Although I developed and maintain most notebooks, some notebooks I reference were created by other authors, who are credited within their notebook(s) by providing their names and/or a link to their source.
 
-For detailed instructions, scripts, and tools to more optimally set up your development environment for data analysis, check out the [data-dev-setup](https://github.com/donnemartin/data-dev-setup) repo.
+For detailed instructions, scripts, and tools to more optimally set up your development environment for data analysis, check out the [dev-setup](https://github.com/donnemartin/dev-setup) repo.
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/donnemartin/data-science-ipython-notebooks/master/images/coversmall_alt.png">
@@ -74,6 +74,7 @@ IPython Notebook(s) demonstrating Amazon Web Services (AWS) and AWS tools functi
 
 | Notebook | Description |
 |------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [boto](http://nbviewer.ipython.org/github/donnemartin/data-science-ipython-notebooks/blob/master/aws/aws.ipynb#Boto) | Official AWS SDK for Python. |
 | [s3cmd](http://nbviewer.ipython.org/github/donnemartin/data-science-ipython-notebooks/blob/master/aws/aws.ipynb#s3cmd) | Interacts with S3 through the command line. |
 | [s3distcp](http://nbviewer.ipython.org/github/donnemartin/data-science-ipython-notebooks/blob/master/aws/aws.ipynb#s3distcp) | Combines smaller files and aggregates them together by taking in a pattern and target file.  S3DistCp can also be used to transfer large volumes of data from S3 to your Hadoop cluster. |
 | [s3-parallel-put](http://nbviewer.ipython.org/github/donnemartin/data-science-ipython-notebooks/blob/master/aws/aws.ipynb#s3-parallel-put) | Uploads multiple files to S3 in parallel. |
